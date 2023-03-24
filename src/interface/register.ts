@@ -1,0 +1,11 @@
+export interface RegisterDto {
+  id: number;
+  name: string;
+  email: string;
+  password: string;
+  phone: string;
+  birthday: string;
+  gender: true;
+  address?: string;
+  role?: string;
+}
